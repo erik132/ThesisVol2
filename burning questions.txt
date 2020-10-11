@@ -1,0 +1,4 @@
+1)How to increase GPU occupancy? 
+2)How can profiler show me registers and their usage?
+3)What is the occupancy calculator?
+4)How to decrease stalls? interveave computations?

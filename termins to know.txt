@@ -1,0 +1,11 @@
+1) nvidia profiler
+2)block size
+3)grid size
+4)if-s to arithmetics
+5)threads inside a warp share execution code
+6)Shuffle instruction
+7)Bank conflict -- ja kui tood global mälust shared memorisse, siis on poogen, sest võit on hiiglaslik nagunii.
+8)Coalessed memory access
+9)Shared memory bank width -- eg 64bit good for double
+10)Constant memory vs read only cache
+11)Constant memory broadcasting

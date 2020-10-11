@@ -1,0 +1,10 @@
+1) olulisemad optimisatsiooni tehnikad nvidia expertide arust. 2014
+https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=gtce100-essential+cuda+optimization+techniques
+2) grid optimization. 2017
+https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23087-size+does+matter%21+-+the+ultimate+sizing+and+optimization+guide+for+grid+environments
+3) 3D desktops. Pole aimugi, kas see on mulle 2017
+https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23187-from+dream+to+reality%3a+high+performance+3d+graphics+desktop+virtualisation+with+nvidia+grid+technology
+4) gpu kiirendus tööstuslikul skaalal. 2017
+https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23277-efficiently+combining+mpi+and+gpu-enhanced+tasks+within+a+large+scale+industrial+application
+5) McLaren group use of gpus. 2017
+https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23501-gpu+driven+innovation+at+mclaren+technology+group

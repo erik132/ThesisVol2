@@ -1,0 +1,5 @@
+What is the minimum skill level to do a commercial CUDA project? (specific things and ideas you have to be familiar with)
+If a function can be written in a beginner and an advanced way, how big is the skillgap, work time difference and speedup delta between those 2?
+CUDA best practices guide has a lot of tips and tricks. How much of that is actually needed in a commercial project and how much is nice to have?
+
+Are there any high level patterns to follow when converting cpu -> gpu code?

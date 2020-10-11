@@ -1,0 +1,25 @@
+How to you approach development wise to an acceleration task?
+
+First task is about finding out which parts are slow. Let's say that we have a section of code that executes in 5 
+seconds in a program that takes 30 seconds to execute. If we can reduce that 5 to 0, we now a have a program that 
+executes in 25 seconds. So it runs 5/6th the time it used to. Not much of a win. Not even 2 times. If we were to 
+reduce the 25 seconds to 0, the program now runs 6 times faster. So we find out the parts which take up the vast 
+majority of the execution time and try to get them to run on the gpu. By summarising all of the slow code we can 
+come up with a percentage that needs to be rewritten to gpu code.
+
+What happens next depends on the code percentage to be accelerated:
+
+1)Most of the program will remain on the cpu, because it has gpu non compilant code or it is just fast enough already.
+In this case usually 1-10% of the code is put on the gpu. Most of the gpu use cases.
+
+2)Most of the program will end up on the gpu, because the data is subjected to a variety of algorithms and operations 
+before a usable result emerges. for example SAR coregistration, which is around 50% of file read and write operations,
+preparing computations and data cleanings and 50% core computations.
+
+If you find yourself in compliant with option nr 1, your problem will most likely come from a nested loop somewhere in 
+the core of the program. Turning that into a kernel where every iteration becomes a thread is the most common solution.
+
+If you find yourself looking at option 2, you most like are looking at a number of separate nested loops, where each of 
+them has to become a separate kernel. Now there are some things you can do to make things faster: If you find that 2 of those 
+nested loops are using the same data and have the same number and dimensions of iterations then it makes sense to put those 2 
+together into a single kernel. 
