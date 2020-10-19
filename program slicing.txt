@@ -23,3 +23,5 @@ If you find yourself looking at option 2, you most like are looking at a number 
 them has to become a separate kernel. Now there are some things you can do to make things faster: If you find that 2 of those 
 nested loops are using the same data and have the same number and dimensions of iterations then it makes sense to put those 2 
 together into a single kernel. 
+
+//TODO: what about class collapsing and 1 layer architecture? Where did I even get that?
