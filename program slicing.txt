@@ -25,3 +25,5 @@ nested loops are using the same data and have the same number and dimensions of 
 together into a single kernel. 
 
 //TODO: what about class collapsing and 1 layer architecture? Where did I even get that?
+//TODO: byproducts, such as getBoundingBox. Things that usually get computed after everything, we should fuse in a way 
+to make them computed on the fly.
