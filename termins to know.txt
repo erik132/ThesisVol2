@@ -9,3 +9,6 @@
 9)Shared memory bank width -- eg 64bit good for double
 10)Constant memory vs read only cache
 11)Constant memory broadcasting
+12)Jeremy main gpu profiler (https://github.com/JeremyMain/GPUProfiler/releases)
+13)Nvidia GRID (not related to coding)
+14)supremicro servers (perhaps related to coding)
