@@ -8,3 +8,7 @@ https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23187-f
 https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23277-efficiently+combining+mpi+and+gpu-enhanced+tasks+within+a+large+scale+industrial+application
 5) McLaren group use of gpus. 2017
 https://on-demand-gtc.gputechconf.com/gtcnew/sessionview.php?sessionName=23501-gpu+driven+innovation+at+mclaren+technology+group
+6) Numpy vs Tensorflow comparison
+https://towardsdatascience.com/numpy-vs-tensorflow-speed-on-matrix-calculations-9cbff6b3ce04
+7) gpu comparison for tensorflow
+https://lambdalabs.com/blog/best-gpu-tensorflow-2080-ti-vs-v100-vs-titan-v-vs-1080-ti-benchmark/
